@@ -21,6 +21,10 @@ public class Location {
         return col;
     }
 
+    public boolean equals(Location other){
+        return row == other.row && col == other.col;
+    }
+
     public void setCol(int col) {
         this.col = col;
     }
